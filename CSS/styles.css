@@ -1,0 +1,60 @@
+body {
+  text-align: center;
+}
+
+#form-div {
+  background-color: burlywood;
+  width: 50%;
+  margin: auto;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  max-width: 600px;
+  margin: auto;
+  padding: 40px 0;
+}
+
+label {
+  align-self: flex-start;
+}
+
+.radio-div {
+  text-align: left;
+}
+
+.radio-div label {
+  display: inline;
+  margin-top: -1px;
+  vertical-align: baseline;
+}
+
+form p {
+  align-self: flex-start;
+}
+
+.checkbox-div {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  min-height: 400px;
+}
+
+input,
+#dropdown,
+#feature {
+  margin: 10px 10px 25px 0;
+}
+
+#not-sure {
+  margin-bottom: 30px;
+}
+
+.textarea {
+  min-height: 120px;
+  width: 100%;
+  padding: 0.625rem;
+  resize: vertical;
+}
